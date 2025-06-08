@@ -16,14 +16,21 @@
       "supportsTablet": true
     },
     "android": {
+      
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.saakuyaa.MeuOrganizador"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "06c62a1c-9c81-4a57-a21f-99667dcee200"
+      }
     }
   }
 }
